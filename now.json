@@ -3,6 +3,16 @@
   "alias": ["noders.live"],
   "routes": [
     {
+      "src": "/discord",
+      "status": 307,
+      "headers": { "Location": "https://discord.gg/D4FMGPX" }
+    },
+    {
+      "src": "/schedule",
+      "status": 307,
+      "headers": { "Location": "https://www.twitch.tv/noderslive/schedule" }
+    },
+    {
       "src": "/(.*)",
       "status": 307,
       "headers": { "Location": "https://www.twitch.tv/noderslive" }
