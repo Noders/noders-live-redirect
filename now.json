@@ -13,6 +13,11 @@
       "headers": { "Location": "https://www.twitch.tv/noderslive/schedule" }
     },
     {
+      "src": "/horarios",
+      "status": 307,
+      "headers": { "Location": "https://www.twitch.tv/noderslive/schedule" }
+    },
+    {
       "src": "/(.*)",
       "status": 307,
       "headers": { "Location": "https://www.twitch.tv/noderslive" }
